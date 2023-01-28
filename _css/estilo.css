@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+body,
+html {
+    height: 100%;
+}
+
+.fundo {
+    background-image: url("../_imagens/fundo-100.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand {
+    position: relative;
+    left: 45%;
+}
+
+.offcanvas-body {
+    font-size: 20pt;
+    text-align: center;
+    background-color: black;
+}
+
+.offcanvas-body li {
+    padding-bottom: 20px;
+}
+
+.offcanvas-body a:hover {
+    color: white;
+}
+
+#img-perfil {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.offcanvas-header h5,
+h6 {
+    position: absolute;
+    left: 40%;
+    margin-bottom: 40px;
+    color: rgb(100, 98, 98);
+    text-align: justify;
+}
+
+.container-fluid button {
+    position: relative;
+    right: 90%;
+}
+
+.offcanvas.offcanvas-end {
+    left: 0;
+}
+
+.offcanvas-header {
+    background-color: black;
+}
+
+.offcanvas-header .btn-close {
+    position: absolute;
+    left: 85%;
+    font-size: 20px;
+}
+
+.offcanvas {
+    --bs-offcanvas-width: 250px !important;
+}
+
+.offcanvas-backdrop.show {
+    opacity: 0 !important;
+}
+
+.fixed-top {
+    height: 100px;
+}
+
+.navbar {
+    opacity: 0.8;
+}
+
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.container-fluid {
+    position: absolute;
+    background-color: black;
+    height: 100%;
+}
+
+.container-fluid .navbar-toggler {
+    width: 90px;
+    height: 90px;
+    background: url(../_imagens/nav.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: none;
+}
+
+.text {
+    position: absolute;
+    top: 181.45px;
+    font-family: 'Sail', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    width: 100%;
+    color: aliceblue;
+}

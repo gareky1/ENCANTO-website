@@ -1,0 +1,64 @@
+ li img {
+     width: 210px;
+     height: 210px;
+     object-fit: cover;
+     border-radius: 50%;
+ }
+
+ .slider {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .swiper-container {
+     width: calc(100vw - 70px);
+     max-width: 600px;
+     padding: 30px 0;
+     border-radius: 50%;
+     margin-top: 350px;
+ }
+
+ .swiper-wrapper {
+     list-style: none;
+     padding: 0;
+ }
+
+ .swiper-slide-shadow-left,
+ .swiper-slide-shadow-right {
+     display: none;
+ }
+
+ .swiper-slide {
+     display: block;
+     width: auto;
+     padding: 6px;
+     margin-right: 8px;
+     filter: brightness(50%);
+     border-radius: 50%;
+ }
+
+ .swiper-slide-active {
+     filter: brightness(1);
+ }
+
+ .swiper-slide-active img {
+     border-style: none;
+ }
+
+ .swiper-button-prev {
+     left: 25%;
+ }
+
+ .swiper-button-next {
+     right: 27%;
+ }
+
+ .swiper-button-next {
+     background-image: url('../_imagens/seta-rigt.png')
+ }
+
+ .swiper-button-prev {
+     background-image: url('../_imagens/seta-left.png')
+ }
